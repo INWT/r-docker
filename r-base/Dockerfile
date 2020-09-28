@@ -14,6 +14,7 @@ RUN mv /includes/INWT-CA.crt /usr/local/share/ca-certificates/ \
     && echo "Europe/Berlin" > /etc/timezone \
     && apt-get -y update \
     && apt-get install -y --no-install-recommends \
+        automake \
         less \
         libssl-dev \
         libssh2-1-dev \
