@@ -2,6 +2,9 @@
 # author: Sebastian Warnholz
 # email: sebastian.warnholz@inwt-statistics.de
 
+
+options(warn = 2) # Warnings are Errors
+
 suppressMessages({
   library(docopt)
   library(devtools)
